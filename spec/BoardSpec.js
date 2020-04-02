@@ -15,6 +15,7 @@ describe('Board', function() {
 
       it(message + ' find a ' + conflictType + ' conflict', function() {
         expect(conflictDetected).to.be.equal(conflictExpected);
+        // console.log('detected', conflictDetected);
       });
     });
   };
